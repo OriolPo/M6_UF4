@@ -1,0 +1,64 @@
+h1{
+    font-size: 40px;
+    color: orange;
+}
+
+h3, h4 {
+    font-size: 24px;
+    color: blue;
+}
+
+/* Probando la aplicación de los estilos en cascada. Se aplica el último estilo declarado */
+
+h3, h4 {
+    font-size: 32px;
+    color: black;
+}
+
+div.principal {
+    color: purple;
+}
+
+.principal p {
+    color: rgba(5, 101, 5, 0.2);
+}
+
+#id_contact {
+    background-color: black;
+    color: antiquewhite;
+}
+
+p {
+    font-size: 1.1em;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 1.5;
+}
+
+a, a:visited {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: orange;
+}
+
+a:focus {
+    background-color: lightgray;
+}
+
+div.ej_display{
+    background-color: lightgray;
+    display: none;
+}
+
+span.ej_display{
+    background-color: orange;
+    margin-right: 5px;
+}
